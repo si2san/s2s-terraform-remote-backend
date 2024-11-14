@@ -1,13 +1,13 @@
 variable "aws_region" {
   description = "AWS Region"
   type        = string
-  default     = "ap-northeast-1"
+  default     = "ap-southeast-1"
 }
 
 variable "s3_bucket_name" {
-  description = "Test Master S3 Bucket Name"
+  description = "Test Git Module"
   type        = string
-  default     = "sts-aws-master"
+  default     = "sts-git-module-test"
 }
 
 variable "aws_profile" {
